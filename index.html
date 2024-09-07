@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-up Form</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="img-container">
+        <div class="greeting-background">
+          <h1>Hello!</h1>
+        </div>
+      </div>
+      <div class="form-container">
+        <h2>Sign-up <em>now</em> to get started.</h2>
+        <form action="POST">
+          <div class="details">
+            <h3>Let's do this!</h3>
+            <div class="input-container">
+              <label for="first-name">First Name</label>
+              <input type="text" name="first-name" id="first-name" />
+            </div>
+            <div class="input-container">
+              <label for="last-name">Last Name</label>
+              <input type="text" name="last-name" id="last-name" />
+            </div>
+            <div class="input-container">
+              <label for="email">Email</label>
+              <input type="email" name="email" id="email" />
+            </div>
+            <div class="input-container">
+              <label for="phone-number">Phone Number</label>
+              <input type="tel" name="phone-number" id="phone-number" />
+            </div>
+            <div class="input-container">
+              <label for="password">Password</label>
+              <input
+                type="password"
+                name="password"
+                id="password"
+                pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{6,12}$"
+              />
+            </div>
+            <div class="input-container">
+              <label for="confirm-password">Confirm Password</label>
+              <input
+                type="password"
+                name="confirm-password"
+                id="confirm-password"
+                pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{6,12}$"
+              />
+            </div>
+          </div>
+          <button type="submit">Create Account</button>
+        </form>
+        <p>Already have an account? <a href="">Log In</a></p>
+      </div>
+    </div>
+  </body>
+</html>
