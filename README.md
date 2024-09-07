@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/070ef08c-4771-4b71-a29b-ecb3509abc76)# Sign-up Form
+# Sign-up Form
 Built using HTML and CSS
 
 ## Landing Page
